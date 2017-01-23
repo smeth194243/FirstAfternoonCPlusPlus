@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7985DF861E368FB00085ECFB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7985DF851E368FB00085ECFB /* main.cpp */; };
+		7985DF911E3693C30085ECFB /* AfternoonRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7985DF901E3693C30085ECFB /* AfternoonRunner.cpp */; };
+		7985DF931E36958F0085ECFB /* FirstController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7985DF921E36958F0085ECFB /* FirstController.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		7985DF821E368FB00085ECFB /* FirstAfternoonCPlusPlus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FirstAfternoonCPlusPlus; sourceTree = BUILT_PRODUCTS_DIR; };
-		7985DF851E368FB00085ECFB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7985DF901E3693C30085ECFB /* AfternoonRunner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AfternoonRunner.cpp; path = Controller/AfternoonRunner.cpp; sourceTree = "<group>"; };
+		7985DF921E36958F0085ECFB /* FirstController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FirstController.cpp; path = Controller/FirstController.cpp; sourceTree = "<group>"; };
+		7985DF941E36987C0085ECFB /* FirstController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FirstController.h; path = Controller/FirstController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		7985DF841E368FB00085ECFB /* FirstAfternoonCPlusPlus */ = {
 			isa = PBXGroup;
 			children = (
-				7985DF851E368FB00085ECFB /* main.cpp */,
+				7985DF901E3693C30085ECFB /* AfternoonRunner.cpp */,
+				7985DF921E36958F0085ECFB /* FirstController.cpp */,
+				7985DF941E36987C0085ECFB /* FirstController.h */,
 			);
 			path = FirstAfternoonCPlusPlus;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7985DF861E368FB00085ECFB /* main.cpp in Sources */,
+				7985DF931E36958F0085ECFB /* FirstController.cpp in Sources */,
+				7985DF911E3693C30085ECFB /* AfternoonRunner.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
