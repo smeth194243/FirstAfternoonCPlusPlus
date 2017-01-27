@@ -11,11 +11,31 @@
 
 using namespace std;
 
+void FirstController :: usePointerToChange(int * pointedTo)
+{
+    *pointedTo = 2 * (8987234);
+}
+
 void FirstController :: start()
 {
     cout << "words here please :D" << endl;
     this->specialOutput();
-}
+    
+    int myNumber = 9;
+    int * numberPointer = &myNumber;
+    
+    cout << myNumber << endl;
+    useNumbers(myNumber);
+    cout << myNumber << endl;
+    
+    cout << "Changing a value" << endl;
+    myNumber = impactNumber();
+    cout << "see - impacted " << myNumber << endl;
+    
+    cout << "Changing with a pointer" << endl;
+    usePointerToChange(numberPointer);
+    cout << "See how the number has been changed: " << myNumber << endl;
+ }
 
 void FirstController:: specialOutput()
 {
@@ -41,4 +61,11 @@ void FirstController:: specialOutput()
     cin.ignore();
     getline(cin, name);
     cout << name << endl;
+}
+
+void FirstController::useNumbers(int suppliedNumber)
+{
+    cout << "I was given: " << suppliedNumber << endl;
+    suppliedNumber = (suppliedNumber * 3 + 3242) / 42;
+    cout << "It is now: " << suppliedNumber << endl;
 }
