@@ -19,5 +19,7 @@ private:
     void usePointerToChange(int * somePointer);
 public:
     void start();
+    int firstArray [6] = {7, 42, 666, 420, 69};
+    double secondArray [4] = {7.8,3.4,8.9,4.5};    
 };
 #endif /* FirstController_h */
